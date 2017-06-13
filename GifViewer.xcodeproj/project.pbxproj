@@ -7,25 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		212743451EEA6A8E00CDDAC2 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212743441EEA6A8E00CDDAC2 /* CollectionViewController.m */; };
+		212743481EEA723300CDDAC2 /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 212743471EEA723300CDDAC2 /* CustomCollectionViewCell.m */; };
 		216C9D541EE9A9F500A2283A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 216C9D531EE9A9F500A2283A /* main.m */; };
 		216C9D571EE9A9F500A2283A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 216C9D561EE9A9F500A2283A /* AppDelegate.m */; };
-		216C9D5A1EE9A9F500A2283A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 216C9D591EE9A9F500A2283A /* ViewController.m */; };
 		216C9D5D1EE9A9F500A2283A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216C9D5B1EE9A9F500A2283A /* Main.storyboard */; };
 		216C9D5F1EE9A9F500A2283A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216C9D5E1EE9A9F500A2283A /* Assets.xcassets */; };
 		216C9D621EE9A9F500A2283A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216C9D601EE9A9F500A2283A /* LaunchScreen.storyboard */; };
+		219FCA011EEFA94400AD43AD /* Giphy.m in Sources */ = {isa = PBXBuildFile; fileRef = 219FCA001EEFA94400AD43AD /* Giphy.m */; };
+		219FCA041EF0671200AD43AD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 219FCA031EF0671100AD43AD /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		212743431EEA6A8E00CDDAC2 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		212743441EEA6A8E00CDDAC2 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		212743461EEA723300CDDAC2 /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
+		212743471EEA723300CDDAC2 /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewCell.m; sourceTree = "<group>"; };
 		216C9D4F1EE9A9F500A2283A /* GifViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		216C9D531EE9A9F500A2283A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		216C9D551EE9A9F500A2283A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		216C9D561EE9A9F500A2283A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		216C9D581EE9A9F500A2283A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		216C9D591EE9A9F500A2283A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		216C9D5C1EE9A9F500A2283A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		216C9D5E1EE9A9F500A2283A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		216C9D611EE9A9F500A2283A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		216C9D631EE9A9F500A2283A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		219FC9FF1EEFA94400AD43AD /* Giphy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Giphy.h; sourceTree = "<group>"; };
+		219FCA001EEFA94400AD43AD /* Giphy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Giphy.m; sourceTree = "<group>"; };
+		219FCA021EF0671100AD43AD /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		219FCA031EF0671100AD43AD /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +69,14 @@
 			children = (
 				216C9D551EE9A9F500A2283A /* AppDelegate.h */,
 				216C9D561EE9A9F500A2283A /* AppDelegate.m */,
-				216C9D581EE9A9F500A2283A /* ViewController.h */,
-				216C9D591EE9A9F500A2283A /* ViewController.m */,
+				212743431EEA6A8E00CDDAC2 /* CollectionViewController.h */,
+				212743441EEA6A8E00CDDAC2 /* CollectionViewController.m */,
+				212743461EEA723300CDDAC2 /* CustomCollectionViewCell.h */,
+				212743471EEA723300CDDAC2 /* CustomCollectionViewCell.m */,
+				219FCA021EF0671100AD43AD /* DetailViewController.h */,
+				219FCA031EF0671100AD43AD /* DetailViewController.m */,
+				219FC9FF1EEFA94400AD43AD /* Giphy.h */,
+				219FCA001EEFA94400AD43AD /* Giphy.m */,
 				216C9D5B1EE9A9F500A2283A /* Main.storyboard */,
 				216C9D5E1EE9A9F500A2283A /* Assets.xcassets */,
 				216C9D601EE9A9F500A2283A /* LaunchScreen.storyboard */,
@@ -151,9 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				216C9D5A1EE9A9F500A2283A /* ViewController.m in Sources */,
 				216C9D571EE9A9F500A2283A /* AppDelegate.m in Sources */,
 				216C9D541EE9A9F500A2283A /* main.m in Sources */,
+				219FCA011EEFA94400AD43AD /* Giphy.m in Sources */,
+				212743451EEA6A8E00CDDAC2 /* CollectionViewController.m in Sources */,
+				212743481EEA723300CDDAC2 /* CustomCollectionViewCell.m in Sources */,
+				219FCA041EF0671200AD43AD /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +330,7 @@
 				216C9D681EE9A9F500A2283A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
